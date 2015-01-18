@@ -1,0 +1,62 @@
+<html><head><title>Open Computing Facility -- Contact Info</title>
+<body bgcolor=white>
+<!--#include virtual="/template/head.html" -->
+<!-- assumes both /head & body tags are in head.html -->
+<!--updated 5/4/00 by ken-->
+<hr noshade size=1>
+
+<blockquote>
+
+<!--grphic added by k. ott on 4/9/00@18:46PDT-->
+<img src=images/liveprint-DF805519_17458087.JPG alt=""   
+ align=right width=206 height=120>
+
+<font size=+1 face="verdana,arial,helvetica">
+<font color=blue><b>How to Contact OCF Staff</b></font>
+</font><br>
+<hr noshade size=1 width=100% align=left>
+<p>
+
+<b><a href="http://www.OCF.Berkeley.EDU/staff_hours">Staff Office
+Hours</a></b> for the current semester<br>
+(as posted inside our lab)<p>
+
+*Please e-mail us before calling us.  E-mail is the fastest way to contact us.
+<i>Telephone:</i><br>
++1 (510) 643-9888 (Heller Lab)<p>
+
+<i>Lab location:</i> Heller Lounge, MLK Student Union 
+(<a href="http://www.berkeley.edu/map/maps/DE34.html">Campus Map</a>)<br>
+<i>Lab hours:</i>
+<!-- replaced by dwc 2003-02-03.<a href="http://www.ocf.berkeley.edu/cal/current.shtml">current schedule</a> -->
+<a href="http://www.ocf.berkeley.edu/cal/">current schedule</a>
+<P>
+
+<i>Postal address:</i><br>
+O.C.F.<br>
+400 Eshleman Hall, #4500<br>
+UC Berkeley<br>
+Berkeley, CA 94720-4500<br>
+USA<p>
+
+<i>URL:</i><br>
+<A HREF="http://www.ocf.berkeley.edu/">http://www.ocf.berkeley.edu/</A><br>
+
+<i>Staff email:</i><br>
+<!--added 000504 by kenao-->
+Hey! Before you email us, please see our <a
+href=http://docs.ocf.berkeley.edu/wiki/Main_Page>online help support site</a>
+first!<br>
+You may find answers to your questions quicker this way. If not,
+then<br>
+of course email us. Also, please remember <b>not</b> to send us your
+password<br>
+over email, as your account will be disabled.<br><br>
+
+<a href=OCF/contact.html>Staff email directory</a> for time
+immemorial<p>
+
+<!--#include virtual="/template/tail.html" -->
+</body></html>
+
+

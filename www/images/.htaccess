@@ -1,0 +1,3 @@
+Options -Indexes
+#ErrorDocument 403 /iis403.html
+ErrorDocument 404 /iis404.html

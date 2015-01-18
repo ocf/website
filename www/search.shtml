@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>Open Computing Facility: Search Results</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style type="text/css">
+@import url("/bleuice.css");
+</style>
+<link rel="stylesheet" type="text/css" href="/bleuice.css" title="bleuice" />
+<link rel="alternate stylesheet" type="text/css" href="/bleuarctic.css" title="bleuarctic" />
+<!--<script type="text/javascript" src="/styleswitcher.js"></script>-->
+<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+</head>
+
+<body>
+
+<!--#include virtual="/header.html"-->
+
+<div id="mothercontainer">
+<div id="container">
+
+<!--#include virtual="/skinpicker.html"-->
+
+<h2>Search Results</h2>
+
+
+<form action="/searchresults.shtml" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="005278275716132951505:stqhypaubtc" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="text" name="q" size="25" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
+
+
+
+</div></div> <!-- end div container and mothercontainer -->
+
+<!--#include virtual="/footer.html"-->
+
+<!--#include virtual="/tracker.html"-->
+
+</body>
+</html>
+
+
+

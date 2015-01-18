@@ -1,0 +1,884 @@
+/* ------------------------------------------------------------
+Title: "Arctic"
+By: Gordon Mei - http://www.ocf.berkeley.edu/~gordeon - gordeon (at) gmail.com
+Creation Date: October 5, 2006
+Last Updated: January 12, 2008 by gordeon
+------------------------------------------------------------ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", Verdana, "Lucida Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #000;
+    border-top: 0px;
+    background: #fff url(bkgdwhitepage.gif) repeat-y top center;
+}
+a:link, a:visited {
+    color: #298399;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #c66;
+    background: none;
+}
+
+/* ------------------------------------------------------------
+layout
+------------------------------------------------------------ */
+
+#mothercontainer {	
+    margin: 0;
+    padding: 20px 0;
+
+}
+#container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 9pt;
+    text-align: left;
+    line-height: 1.4em;
+}
+#content {
+    float: right;
+    width: 510px;
+    margin: 0 0 0 40px;
+}
+#leftside {
+    float: left;
+    width: 200px;
+    margin: 0;
+}
+
+#sponsors {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    clear: both;
+    border-top: 1px solid #e6f1f5;
+}
+
+#sponsors img {
+    padding: 0 15px 0 0;
+}
+
+/* ------------------------------------------------------------
+header
+------------------------------------------------------------ */
+
+#header {
+    margin: 0;
+    font-size: 10pt;
+    text-align: left;
+    background: #e5e5e5 url(headerbkgdbleuarctic.gif) repeat-x top left;
+    border-top: 0px;
+    border-bottom: 1px solid #cecece;
+}
+
+/* below, removed position: relative; to fix horiz. scrollbars */
+
+#header div {
+    position: relative;
+    width: 820px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+#header h1 {	
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    font-family: verdana, "lucida sans", tahoma, helvetica, arial, sans-serif;
+    font-size: 10pt;
+}
+
+#header h1 a {
+    display: block;
+    width: 91px;
+    height: 120px;
+    background: url(ocflogo.png) no-repeat top left;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 0;
+}
+#header div ul {
+    float: left;
+    margin: 96px 0 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 8pt;
+    font-weight: bold;
+    font-family: verdana, "lucida sans", tahoma, helvetica, arial, sans-serif;
+}
+#header ul li {
+    float: left;
+    margin: 0 0 0;
+    padding: 0;
+    background: #efefef url(tabbkgdbleuarctic.gif) repeat-x bottom left;
+    border-top: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+#header ul li a {
+    float: left;
+    display: block;
+    padding: 8px 12px 8px 12px;
+    margin: 0 0 0 0;
+    text-decoration: none;
+    color: #777;
+}
+#header ul li a:hover {
+    background: #e6eef3;
+    color: #000;
+}
+
+#headerbanner {
+    position:absolute;
+    top:0px;
+    left:100px;
+    background:url(ocfbannerbleuarctic.gif) no-repeat top left;
+    height:60px;
+}
+
+/* ------------------------------------------------------------
+content
+------------------------------------------------------------ */
+
+#container h1 {
+    clear: both;
+    color: #888;
+    font: 18px "Century Gothic","Trebuchet MS","Trebuchet";
+    letter-spacing: -1px;
+}
+
+#container h2 {
+    clear: both;
+    margin: 10px 0 10px 0;
+    padding: 4px 0 4px 0;
+    font-size: 130%;
+    font-family: "Trebuchet MS", trebuchet, verdana, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #595750;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#container h3 {
+    clear: both;
+    margin: 0 0 10px 0;
+    padding: 4px 0 4px 0;
+    font-size: 100%;
+    font-family: "Trebuchet MS", trebuchet, verdana, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #595750;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#container h5 {
+    clear: both;
+    margin: 0 0 10px 0;
+    padding: 4px 0 4px 0;
+    font-size: 100%;
+    font-family: verdana, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #111111;
+}
+
+#content h2 {
+    margin: 5px 0 15px 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Trebuchet, serif;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #333;
+    text-transform: uppercase;
+}
+
+#content h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 90%;
+    color: #111;
+}
+
+#content h3.announcements {
+    position: relative;
+    margin: 1em 0 0 0;
+    padding: 7px 10px;
+    font-size: 100%;
+    color: #333;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #eee;
+}
+#content h3.announcements em {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90%;
+    color: #999;
+}
+#content h4 {
+    clear: both;
+    margin: 0px 0 0 0;
+    padding: 4px 0 4px 0;
+    font-size: 110%;
+    font-family: "Trebuchet MS", Trebuchet;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #595750;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#content h5 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Trebuchet;
+    font-weight: normal;
+    font-size: 140%;
+    color: #111;
+}
+
+h6 {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 0;
+    font-weight: normal;
+    font-size: 11px;
+    color: #111;
+}
+#content p {
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+#content p.update {
+    margin-top: -10px;
+    text-align: right;
+}
+#content ul {
+    margin: 0 0 1.5em 30px;
+    padding: 0;
+    list-style: none;
+}
+
+#content ul li img {
+    vertical-align: middle;
+}
+#content code {
+    font-family: Monaco, monospace;
+    font-size: 110%;
+    color: #111;
+}
+#content abbr {
+    border: none;
+}
+
+/* 50-50 split within content */
+
+.contentlefthalf {
+    float:left;
+    width:49%;
+}
+
+.contentrighthalf {
+    float:right;
+    width:49%;
+}
+
+.contentlefthalf li {
+    list-style-type: square;
+}
+
+.contentrighthalf li {
+    list-style-type: square;
+}
+
+/* 33-33-33 split within content */
+
+.contentleftthird {
+    float: left;
+    width: 33%;
+}
+
+.contentmiddlethird {
+    float: right;
+    width: 33%;
+    margin-left: 1px;
+}
+
+.contentrightthird {
+    float: right;
+    width: 32%;
+    margin-left: 3px;
+}
+
+.contentleftthird li, .contentmiddlethird li, .contentrightthird li {
+    list-style-type: square;
+}
+
+.quotebox {
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align:center;
+    border:1px solid #e6f1f5;
+    background-color:#f8fcfc;
+}
+
+.tickerbox {
+    width: 710px;
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    text-align:left;
+    text-align: center;	
+    color: #000;
+    height:auto;
+    background-color:#ddee99;
+    border-radius: 0.5em;
+}
+
+/* ------------------------------------------------------------
+tables
+------------------------------------------------------------ */
+
+/* general tabulated data, incl. minutes, excl. hours */
+
+.tabulated th {
+    padding: 9px;
+}
+
+.tabulated thead th {
+    background: #ddefef;
+}
+
+.tabulated .year {
+    padding: 9px;
+}	
+
+.tabulated th, .tabulated td {
+    background: #edf2f2;
+}
+
+.tabulated th a, .tabulated tr a, .tabulated td a {
+    padding:9px;
+    display: block;
+}
+
+.tabulated th a:hover, .tabulated td a:hover {
+    background: #e0e9e9;
+    padding:9px;
+    display:block;
+    color:#516666;
+}
+
+.tabulated tfoot {
+    padding: 9px;
+}
+
+/* index page announcement table */
+
+table.announcements {
+    width: 100%;
+    margin: 0 0 25px 0;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+table.announcements tr td, table.announcements tr th {
+    margin: 0 0 0 0;
+    padding: 12px 5px;
+    border-bottom: 1px solid #F0EADA;
+    background-color: #f8fcfc;
+}
+table.announcements tr th {
+    padding: 5px 15px 5px 15px;
+    text-align: left;
+}
+
+table.announcements tr th em{	
+    display: block;
+    font-size: 90%;
+    font-weight: normal;
+    font-style: normal;
+    color: #111;
+}
+table.announcements tr td {
+    font-size: 90%;
+    color: #111;
+}
+
+/* staff hours table */
+
+.stafftdlabel {
+    background-color: #eee;
+    padding: 3px;
+}
+
+.staffcells {
+    text-align: left;
+    padding: 3px;
+}
+
+/* ------------------------------------------------------------
+links and images
+------------------------------------------------------------ */
+
+a img {
+    border: none;
+}
+
+a.external {
+    background: url(icon_external.png) center right no-repeat;
+    padding-right: 1px;
+}
+
+a.wiki {
+    background: url(icon_wiki.png) center right no-repeat;
+    padding-right: 1px;
+}
+
+/* ------------------------------------------------------------
+index page only
+------------------------------------------------------------ */
+
+/* welcome to the ocf */
+
+#welcome {
+    margin: 0 10px 0 0;
+    padding: 0 0 10px 0;
+    background: url(ocfopenboxbigger.gif) no-repeat top right;
+}
+#welcome p {
+    margin: 0 0 10px 0;
+}
+#welcome ul {
+    margin: 0;
+    padding: 0 0 10px 20px;
+    list-style: none;
+}
+#welcome ul li {
+    margin: 5px 0 0 5px;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1em;
+    font-weight: normal;
+    color: #555;
+    list-style: square;
+}
+
+.welcome {
+    margin: 0 10px 0 0;
+    padding: 10px 0 10px 0;
+    background: url(ocfopenboxbigger.gif) no-repeat top right;
+    border-top:1px solid #ccc;
+    clear:both;
+}
+.welcome p {
+    margin: 0 0 10px 0;
+}
+.welcome ul {
+    margin: 0;
+    padding: 0 0 10px 20px;
+}
+.welcome ul li {
+    margin: 5px 0 0 5px;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1em;
+    font-weight: normal;
+    color: #555;
+    list-style: square;
+}
+
+#tabnav {border-bottom:1px solid #fff; margin:0; padding-bottom:0px; padding-left:10px; margin-bottom:15px;}
+#tabnav ul, #tabnav li {display:inline; list-style-type:none; margin:0; padding:0;}	
+#tabnav a {background:#e8ebf0; border:1px solid #ccc; border-bottom:1px solid #e8ebf0; color:#666; float:left; font-size:9pt; margin-right:8px; padding:2px 10px 2px 10px;}
+#tabnav span {float:left; font-size:12px; margin-right:8px; padding:2px 10px 2px 10px;}
+#tabnav .active a {background:#fff; border-bottom:1px solid #fff;}
+#tabnav a:hover {color:#111;}
+#tabsubnav {border-bottom:1px solid #ccc; margin:0; padding-bottom:32px; padding-left:15px; margin-bottom:15px;}
+#tabsubnav ul, #tabsubnav li{display:inline; list-style-type:none; margin:0; padding:0;}	
+#tabsubnav a,#tabsubnav span {color:#666; float:left; font-size:9pt; margin-top:7px; margin-right:8px; padding:2px 5px 3px 5px;}
+#tabsubnav .active a {background:#eef8fe;}
+#tabsubnav a:hover {background:#eef8fe;}
+
+/* ------------------------------------------------------------
+leftside nav
+------------------------------------------------------------ */
+
+#leftnav {
+    margin: 0;
+    padding: 10px 0 0 0;
+    list-style: none;
+}
+#leftnav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#leftnav li {
+    margin: 0;
+    padding: 0 0 2px 0;
+    font-family: "Lucida Grande", Verdana, "Lucida Sans", Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    font-weight: normal;
+    color: #0a779b;
+    border-bottom: 1px solid #eee;
+}
+#leftnav li a {
+    margin-left: 3px;
+    text-decoration: none;
+    color: #0a779b;
+}
+#leftnav li a span {
+    font-style: italic;
+}
+#leftnav li a:hover {
+    color: #c66;
+    background: none;
+    border-bottom: 1px solid;
+}
+
+/* ------------------------------------------------------------
+leftside
+------------------------------------------------------------ */
+
+#leftside p {
+    margin: 3px 0 0px 0;
+    padding: 0;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+#leftside h4 {
+    margin: 10px 0 0 0;
+    padding: 4px 0 4px 0;
+    font-family: "Trebuchet MS", Trebuchet;
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-align: center;
+    color: #595750;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#leftside h4 span {
+    font-style: italic;
+}
+#leftside .buttonsubmit {
+    padding:2px 8px 2px 8px;
+    font-size: 8pt;
+}
+
+/* ------------------------------------------------------------
+footer
+------------------------------------------------------------ */
+
+#footer {
+    clear: both;
+    margin: 5px 0 0 0;
+    padding: 30px 0 0 0;
+    color: #666;
+    background-color:#f8fcfc;
+    border-top: 1px solid #ccc;
+    background: #fff url(bkgdwhitefooter.gif) repeat-y top center;
+}
+#footer-inner {
+    width: 750px;
+    margin: 0 auto 0 auto;
+    padding: 0 15px;
+    text-align: left;
+    font-size: 8pt;
+}
+#footer p {
+    margin: 0;
+    padding: 0;
+}
+#footer a {
+    color: #39c;
+}
+#footer p#footer-links {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#footer p#hosted-by {
+    float: right;
+    margin-top: 20px;
+}
+#footer p#copyright {
+    margin-top: 20px;
+    padding: 0;
+}
+
+/* footer lists */
+
+#ankle-lists {
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+}
+#ankle-lists div.ankle {
+    width: 187px;
+    float: left;
+}
+div.ankle h4 {
+    margin: 0 25px 15px 0;
+    padding: 6px 0;
+    font-size: 100%;
+    font-family: "trebuchet ms", trebuchet, "lucida grande", "lucida sans unicode", "lucida sans", verdana, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #555;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+div.ankle ul {
+    margin: 0 15px 0 0;
+    padding: 0;
+    list-style: none;
+}
+div.ankle ul li {
+    margin: 0;
+    padding: 0;
+    padding: 4px 4px 4px 17px;
+}
+div.ankle ul li a {
+    display: block;
+    margin: 0;
+
+}
+
+/* ------------------------------------------------------------
+search bar
+------------------------------------------------------------ */
+
+#find {
+    margin: 10px 0 15px 0;
+    padding: 0;
+}
+#content #find p {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+#find input {
+    vertical-align: middle;
+}
+
+#find input#search-text {
+    width: 125px;
+    margin-right: 2px;
+    font-size: 110%;
+    color: #333;
+}
+
+#content #find input#search-text {
+    width: 380px;
+}
+
+/* search in leftside */
+
+form#searchside {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+form#searchside input {
+    vertical-align: middle;
+}
+form#searchside input#searchside-text {
+    width: 150px;
+    font-size: 110%;
+}
+
+/* search in top right */
+
+#searchupside {background-color: #d4d4d4; position: absolute; top: 0px; left: 520px; width: 253px; height: 28px; padding:0 3px 0 3px; margin:0; border-bottom: 1px solid 
+#ccc; border-left: 1px solid #ccc; border-right: 1px solid #ccc; text-align:center;}
+
+.searchsubmit {background:#fff; color:#777; letter-spacing:1px; font-size:8pt; font-family:"lucida grande", verdana, "lucida sans", helvetica, arial, sans-serif; text-decoration:none; border:3px double #ccc; cursor:pointer; padding:1px; height:auto; width:60px;}
+
+.searchsubmit:hover {background-color:#eee; cursor:pointer; border:3px double #999; color: #000;}
+
+.searchselect {width:auto; padding:2px 0 2px 0; margin:0; height:auto; background-color:#eee; color:#aaa; border:1px solid #ccc;}
+
+/* ------------------------------------------------------------
+form elements
+------------------------------------------------------------ */
+
+#content form p {
+    margin: 3px 0 5px 0;
+    padding: 0;
+}
+
+#leftside form {margin:5px 0 0 0; padding:0;}
+.leftsideinput {width:194px; padding:2px; margin:0; color: #555;}
+label {font-size:8pt;}
+
+/* ocfquery originally 118px with dropdowns */
+.ocfquery {width: 128px; color: #555; padding:2px; margin: 0; background-color: #eee;}
+
+input {font-size:10pt; font-family:"lucida grande", verdana, "lucida sans", helvetica, arial, sans-serif; border:1px solid #ccc; color:#38230e; background-color:#f0f0f0;}
+
+input[type="submit"]:focus {cursor:pointer; border-color:#99cc99;}
+input[type="submit"]:active {background-color:#eee;}
+input[type="submit"][disabled] {border-color:#ccc; color:#333; background-color:#eee;}
+
+input[type="reset"]:focus {cursor:pointer; border-color:#d06060;}
+input[type="reset"]:active {background-color:#eee}
+input[type="reset"][disabled] {border-color:#ccc; color:#333; background-color:#eee}
+
+input[type="submit"]:hover {background-color:#f0fde2; cursor:pointer; border-color:#eeeeee;}
+input[type="reset"]:hover {background-color:#ffcccc; cursor:pointer; border-color:#eeeeee;}
+
+input[type="text"]:hover, input[type="password"]:hover, textarea:hover, select:hover {background-color:#f0fde2; border:1px solid #ccc; color:#111;}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {background-color:#fafafa; border:1px solid #555; color:#000;}
+
+textarea {font-size:10pt; font-family:"lucida grande", verdana, "lucida sans", helvetica, arial, sans-serif; border-top:2px solid #aaccff; border-left:1px solid #aaccff; border-right:1px solid #aaccff; border-bottom:1px solid #aaccff; color:#38230e;}
+
+select {font-size:9pt; font-family:"lucida grande", verdana, "lucida sans", helvetica, arial, sans-serif; height:auto; color:#38230e;}
+
+.buttonsubmit {background:#f0fde2; color:#000000; letter-spacing:1px; font-size:8pt; font-family:"lucida grande", verdana, "lucida sans", helvetica, arial, sans-serif; text-decoration:none; border:3px double #b9e68b; cursor:pointer; padding:1px; height:auto; width:auto;}
+
+.buttonreset {background:#ffcccc; color:#000000; letter-spacing:1px; font-size:9pt; font-family:georgia,"lucida grande","lucida sans",sans-serif; text-decoration:none; border:3px double #ffaaaa; cursor:pointer; padding:1px; height:auto; width:auto;}
+
+input[type="radio"] {border:0;}
+
+/* ------------------------------------------------------------
+link hover tooltips
+------------------------------------------------------------ */
+
+a.tooltip{
+    position:relative;
+    z-index:24; background-color:#fff;
+    color:#111;
+text-decoration:none}
+
+a.tooltip:hover{z-index:25; background-color:#fff}
+
+a.tooltip span{display: none}
+
+a.tooltip:hover span{
+    display:block;
+    position:absolute;
+    top:2em;
+    left:2em;
+    width:16em;
+    border:1px solid #ccc;
+    background-color:#eee; 
+    color:#111;
+padding: 3px;}
+
+/* ------------------------------------------------------------
+error message boxes.
+------------------------------------------------------------ */
+
+#errorbox {
+    width: 400px;
+    height: 120px;
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font: 8pt verdana, lucida, sans-serif;
+    letter-spacing: 1px;
+}
+
+/* ------------------------------------------------------------
+misc.
+------------------------------------------------------------ */
+
+/* alternate image text in some browsers styled */
+img {font:normal 8pt "lucida grande", "lucida sans unicode", "lucida sans", verdana, sans-serif;}
+
+/* proportional-width preformatted text for message of the day, else fixed-width */
+.motd {font:normal 9pt "lucida grande", "lucida sans", "lucida sans unicode", verdana, sans-serif; line-height: 1.4em;}
+pre {font:normal 9pt monaco, consolas, courier new; line-height: 1.4em;}
+
+hr {color: #eee; border: 1px solid #eee;}
+
+dt {font-weight: bold; line-height:200%;}
+dd {margin:0 0 0 2em; line-height:150%;}
+
+iframe {margin:0; border:0;}
+
+/* (header magic works here) */
+
+/* self-clearing floats */
+#header:after,
+#ankle-lists:after,
+form#find.find-welcome:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+#staff-hours .day.cancelled .title {
+    color: #aaa !important;
+}
+
+#staff-hours .day.cancelled .title > span.cancelled {
+    color: #b20000 !important;
+    font-weight: bold;
+}
+
+#staff-hours .day .title {
+    border: solid 1px #ddd;
+    background-color: #eee;
+
+    padding: 10px;
+    margin: 0px;
+}
+
+#staff-hours .day.cancelled .faces > li {
+    opacity: 0.6;
+}
+
+#staff-hours .day .faces {
+    display: block;
+
+    border: solid 1px #ddd;
+    border-top: none;
+
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 15px;
+
+    overflow: hidden;
+}
+
+#staff-hours .day .faces > li {
+    display: block;
+    width: 140px;
+    float: left;
+}
+
+#staff-hours .day .faces > li p {
+    text-align: center;
+
+    line-height: 1.2em;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#staff-hours .day .faces > li p.name {
+    font-weight: bold;
+}

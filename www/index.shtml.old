@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Open Computing Facility at University of California, Berkeley</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<!--<style type="text/css">
+@import url("/bleuarctic.css");
+</style>-->
+<link rel="alternate stylesheet" type="text/css" href="/bleuice.css" title="bleuice" />
+<link rel="stylesheet" type="text/css" href="/bleuarctic.css" title="bleuarctic" />
+<script type="text/javascript" src="/styleswitcher.js"></script>
+<script type="text/javascript" src="/tabs.js"></script>
+<script type="text/javascript" src="/mobile/detectmobile.js"></script>
+<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+
+<link rel="search" type="application/opensearchdescription+xml" title="OCF Search" href="/ocf-berkeley.xml" />
+<link rel="search" type="application/opensearchdescription+xml" title="Berkeley Search" href="/googleberkeley.xml" />
+</head>
+
+<body>
+
+<!--#include virtual="/header.html"-->
+
+<div id="mothercontainer">
+<div id="container">
+
+<!--<div class="tickerbox">-->
+<!--<font color="red">As a reminder, DO NOT send your password over email, as your account will have to be disabled. OCF staff members do not need to know 
+and will never ask for your password.</font>--><!--Welcome back OCFers! We are now open at our new home at <a 
+href="http://docs.OCF.Berkeley.EDU/wiki/Relocate_2008">Eshleman 
+Hall, floor G</a>!-->
+<!--</div>-->
+
+  <div id="content">
+
+<h2>Welcome to the OCF</h2>
+
+		<ul id="tabnav" style="margin-bottom:0px;">
+			<li id="nav_individuals" class="active"><a href="javascript:showTab('individuals','groups')" onfocus="blur();">Individuals</a></li>
+			<li id="nav_groups"><a href="javascript:showTab('groups','individuals')" onfocus="blur();">Groups</a></li>
+		</ul>
+
+<!--Start tab 1-->
+
+		<div id="individuals" class="welcome">		
+  		<p>The OCF is an all-volunteer, student-run, student-initiated service group <!--(SISG)--> dedicated to free computing for all University of California at 
+Berkeley 
+students, faculty, and staff. Among our services, we offer:</p>
+
+  <ul>
+	<li>Free printing (250 pages per semester)</li>
+	<li>Free disk &amp; web space (2 GB)</li>
+	<li>Free e-mail (username@OCF.Berkeley.EDU)</li>
+	<li>Spiffy <a href="http://docs.OCF.Berkeley.EDU/wiki/Account_services_we_provide#Computer_Lab_Access" title="Eshleman Lab">computer lab</a></li>
+	<li>and more...</li>
+  </ul>
+<a href="http://docs.OCF.Berkeley.EDU/wiki/Getting_an_account">&#8250; Get your free account today!</a>
+<p>Request an account <a href="https://www.ocf.berkeley.edu/approve">online</a> or visit a staff member in the lab.</p>
+		</div>
+		
+<!--Start tab 2-->
+		
+	<div id="groups" style="display:none;" class="welcome">		
+		<p>The OCF offers hosting to numerous <a href="/Group_Pages.shtml">student groups</a> on campus. Among the services offered to groups, we offer:</p>
+
+  <ul>
+	<li>Free hosting for OSL-registered groups</li>
+	<li><a href="http://docs.OCF.Berkeley.EDU/wiki/Virtual_hosting" title="Virtual hosting">Virtual hosting</a> (yourgroup.Berkeley.EDU)</li>
+	<li>Same privileges as individual accounts</li>
+	<li>and more...</li>
+  </ul>
+  
+<a href="http://docs.OCF.Berkeley.EDU/wiki/Getting_an_account">&#8250; Set up your group account today...</a>
+<p>Request an account <a href="https://www.ocf.berkeley.edu/approve">online</a> or visit a staff member in the lab.</p>
+	</div>
+
+<!--End tab 2-->
+
+<h4>Recent Notices</h4>
+
+<pre class="motd"><!--#include virtual="/cgi-bin/parsemotd.cgi"--></pre>
+
+
+<h3 class="announcements">Announcements</h3>
+
+<table cellspacing="0" class="announcements">
+<tr>
+	<th><a href="http://docs.OCF.Berkeley.EDU/wiki/OCF_staff#Board_of_Directors">OCF Board of Director Meetings</a>
+	<em>
+	This meeting is the one that we hold weekly to discuss issues that arise at the OCF. If you would like to come by and contribute your commentary, you are more than welcome to. We meet at 7:14pm every Thursday night in 39 Evans, starting the third week of instruction.
+	</em>
+	</th>
+</tr>
+
+<!--<tr>
+	<th><a href="http://www.sun.com">Sun Server Donation</a> 
+	<em>The OCF would like to thank <a href="http://www.sun.com">Sun Microsystems</a> for its generous donation of a new, fully-loaded <a href="http://www.sun.com/servers/coolthreads/t2000/">Sun Fire T2000</a> server. This machine allows us to better serve the Berkeley community as a whole by offering high-performance web hosting. For over a decade, Sun's contributions have allowed the OCF to grow with the needs of its expanding user base, now numbering more than 18,000. It is the continued generosity of benefactors like Sun Microsystems that makes student-run computing a reality at UC Berkeley.
+	</em>
+	</th>
+</tr>-->
+
+<tr>
+	<th><a href="/sysadmin-class">Classes being taught by OCF staff:</a> 
+	<em><a href="/sysadmin-class/2011-spring">Hands-On UNIX System Administration -
+	Spring 2011</a></em>
+	</th>
+</tr>
+
+<!--<tr>
+	<th><a href="https://bigideas.Berkeley.EDU/donate/143">Support the OCF with a Donation</a>
+	<em>The OCF is run purely by volunteers working with a tight, shrinking budget, while our user base continues to grow. For more details on our goals and <a href="https://bigideas.Berkeley.EDU/donate/143">how you can help</a>, visit us at <a href="http://bigideas.Berkeley.EDU/node/143">Big Ideas</a>.
+	</em>
+	</th>
+</tr>-->
+
+</table>
+
+  </div>
+
+
+<div id="leftside">
+
+	<h6>
+	Switch Skin: <a href="#" onclick="setActiveStyleSheet('bleuice'); return false;">Tux</a> | 
+	<a href="#" onclick="setActiveStyleSheet('bleuarctic'); return false;">Arctic</a>
+	</h6>
+
+	<h4>Tools</h4>
+
+	<ul id="leftnav">
+      <li><a href="https://secure.OCF.Berkeley.EDU/cgi-bin/cmds.cgi" class="tooltip">My Account<span>Check remaining paper and disk quota, set up webspace, mysql, and more.</span></a></li>
+      <li><a href="http://www.OCF.Berkeley.EDU/cgi-bin/staff_hours.cgi" title="Hours Staffers Will Be in Lab" class="tooltip">Staff Hours<span>Check hours staff will be in the OCF Lab</span></a></li>
+      <li><a href="/ssh" title="Web-based SSH tool">SSH over the Web</a></li>
+      <!--<li><a href="https://secure.OCF.Berkeley.EDU/net2ftp/" title="Upload files to your webspace">Website Uploader</a></li>--><!--not in use anymore-->
+      <!--<li><a href="/cgi-bin/ruptime2.pl" title="System Status of Servers/Workstations">System Status</a></li>--><!--currently does not work-->
+      <li><a href="https://printhost.OCF.Berkeley.EDU:631/jobs/" title="Current List of Print Jobs" class="tooltip">Print Queue<span>List current print jobs</span></a></li>
+      <!--<li><a href="http://www.OCF.Berkeley.EDU/cgi-bin/people4.cgi?maxidle=120" title="Staffers Currently Online or in Lab">Staff Online</a></li>--><!--currently does not work-->
+      <li><a href="/Group_Pages.shtml" title="Student Groups We Host">Student Groups</a></li>
+      <li><a href="/feedback.shtml" title="Give us feedback about ideas and comments">Give Feedback</a></li>
+	</ul>
+
+	<h4>E-mail Login</h4>
+<div style="padding-top:10px; clear:both;">
+<a href="https://webmail.OCF.Berkeley.EDU/squirrelmail" title="Log in to SquirrelMail" > 
+  <img style="border:none" src="images/loginsqm.png" alt="Log in to SquirrelMail" /> 
+</a> 
+</div>  
+<div style="padding-top:5px; clear:both;"> 
+<a href="https://webmail.OCF.Berkeley.EDU/roundcube" title="Log in to RoundCube" > 
+  <img style="border:none" src="images/loginrc.png" alt="Log in to RoundCube" /> 
+</a> 
+</div>
+
+	<!--<form action="https://webmail.OCF.Berkeley.EDU/squirrelmail/src/redirect.php" method="post" name="mailform">
+	
+	User Name:<br />
+	<input type="text" name="login_username" value="Your OCF Username" class="leftsideinput" onblur="if (document.mailform.login_username.value == '') { 
+document.mailform.login_username.value = 'Your OCF Username'; }" onfocus="if (document.mailform.login_username.value == 'Your OCF Username') { 
+document.mailform.login_username.value = ''; }" />
+	<br />
+	Password:<br />
+	<input type="password" name="secretkey" class="leftsideinput" />
+
+	<input type="hidden" name="js_autodetect_results" value="0" />
+	<input type="hidden" name="just_logged_in" value="1" />
+	
+	<p style="float:right; margin-bottom:3px; padding-bottom:0;">
+	<input class="buttonsubmit" type="submit" value="Login" />
+	</p>
+	<span style="float:left;">
+	<a href="http://docs.OCF.Berkeley.EDU/wiki/Passwords">Lost password?</a>
+	</span>
+
+	</form>-->
+
+	<!--<br style="clear:both;" />-->
+
+	<h4>The OCF Blog</h4>
+	<p>OCF server down?
+
+	<br />
+
+	Check out our blog situated off our servers, which means status reports and updates even when our network experiences a hangover.</p>
+
+	<p><a href="http://ocfblog.blogspot.com/feeds/posts/default"><img src="feedicon10x10.gif" width="10" height="10" alt="[feed]" title="Read via Atom Feed" border="0" style="padding:0 2px 0 0;" /></a> <a href="http://ocfblog.blogspot.com/">Visit the blog &#8250;</a></p>
+
+	<h4>Live Chat with Staff</h4>
+
+	<p>Chat with the staff via Internet Relay Chat (IRC), either through your <a href="/services/irc.shtml">OCF UNIX Shell</a> or the web-based (Java) client linked below by joining channel <b>#ocf</b> on <b>irc.OCF.Berkeley.EDU</b>.</p> 
+	<p><img src="iconirc.png" width="16" height="12" alt="[irc:]" title="#ocf on irc.OCF.Berkeley.EDU" border="0" style="padding:0 2px 0 0;" /><a href="http://irc.OCF.Berkeley.EDU" title="Web-based Java client">Start Chatting &#8250;</a></p>
+	
+	<h4>We're Mobile</h4>
+	<p>Have an iPhone, Droid, Blackberry, Android G1, Pre, Evo, or other mobile device?
+
+	<br />
+
+	Point it to <a href="http://m.OCF.Berkeley.EDU"><b>m.OCF.Berkeley.EDU</b></a>.</p>
+	
+<br />
+
+</div> <!-- end div leftside -->
+
+</div></div> <!-- end div container and mothercontainer -->
+
+<!--#include virtual="/footer.html"-->
+
+<!--#include virtual="/tracker.html"-->
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!-- received="Mon Oct  6 09:21:49 PDT 1997 PST" -->
+<!-- sent="3 Oct 1997 23:28:52 GMT" -->
+<!-- name="Kenneth W. Thomas" -->
+<!-- email="wthomas1@socrates.berkeley.edu" -->
+<!-- subject="Re: Modem discussions at the CCCPB/IT" -->
+<!-- id="" -->
+<!-- inreplyto="Modem discussions at the CCCPB/IT" -->
+<title>Modem Newsgroup Discussions: Re: Modem discussions at the CCCPB/IT</title>
+<h1>Re: Modem discussions at the CCCPB/IT</h1>
+<b>Kenneth W. Thomas</b> (<a href="mailto:wthomas1@socrates.berkeley.edu"><i>wthomas1@socrates.berkeley.edu</i></a>)<br>
+<i>3 Oct 1997 23:28:52 GMT</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="date.html#63">[ date ]</a><a href="index.html#63">[ thread ]</a><a href="subject.html#63">[ subject ]</a><a href="author.html#63">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0064.html">ryan travis tate: "Re: Modem discussions at the CCCPB/IT"</a>
+<li> <b>Previous message:</b> <a href="0062.html">Alan Coopersmith: "Re: Limiting hours/week seems to be the best solution for now"</a>
+<li> <b>Maybe in reply to:</b> <a href="0043.html">Arturo Perez-Reyes: "Modem discussions at the CCCPB/IT"</a>
+<!-- nextthread="start" -->
+<li> <b>Next in thread:</b> <a href="0064.html">ryan travis tate: "Re: Modem discussions at the CCCPB/IT"</a>
+<!-- reply="end" -->
+</ul>
+<!-- body="start" -->
+<pre>
+In article &lt;<a href="mailto:vohu3ez8tj7.fsf@palms.berkeley.edu">vohu3ez8tj7.fsf@palms.berkeley.edu</a>&gt;,
+David desJardins  &lt;<a href="mailto:david@desjardins.org">david@desjardins.org</a>&gt; wrote:
+&gt;Kenneth W. Thomas &lt;<a href="mailto:wthomas1@socrates.berkeley.edu">wthomas1@socrates.berkeley.edu</a>&gt; writes:
+
+
+&gt;Where did you get this notion?  What people are usually complaining
+&gt;about is that sprintlink drops their packets---that's generally what
+&gt;makes a connection "slow".  When I say that sprintlink drops my packets,
+&gt;what I mean is that sprintlink drops my packets.
+
+Well, with all due respect to the fact that I may be agreeing with you
+by the end of this note, I wasn't referring to anything you were
+saying, but to Alan Coopersmith's discussion with the person I was
+responding to:
+
+Alan wrote that ryan travis tate wrote:
+
+&gt;&gt;and while is&amp;t may be able to offer internet access for half the
+&gt;&gt;price of
+&gt;&gt;a typical isp, i have little confidence it will will offer anywhere
+&gt;&gt;near
+&gt;&gt;the same quality of service.
+&gt;
+&gt;For people connecting to *.berkeley.edu hosts, it can provide much
+&gt;better service than any ISP that has to fight through SprintLink to
+&gt;get
+&gt;to hosts on campus.
+
+I think that the problem that Alan is referring to is pretty clearly a
+differential in access times to berkeley.edu hosts depending on
+whether the host has to route through sprintlink or not. Whether
+that's a problem of routing or of droping packets is debatable, no
+doubt, but if it takes 190ms to reach an earthlink host and 60ms to
+reach a sprintlink one, I suspect that this is going to result in a
+lot more "slowness" (under most definitions) than any problems with
+dropped packets.
+
+Again, I still think that sprintlink is inferior service; I just think
+that fighting through routing, which occurs all the time, is more
+likely to cause a notable service difference than the problem of
+dropped packets, which, IMHO, is intermittent and relatively rare.
+
+&gt;&gt; Standard disclaimers apply: one would need a much more complex
+&gt;&gt; model. From the perspective of someone who switches between campus and
+&gt;&gt; off-campus providers fairly often, and who rarely notices that much of
+&gt;&gt; a difference, I don't think the issue is that significant in relation
+&gt;&gt; to the other ones here.
+&gt;
+&gt;You frequently log in to your off-campus provider, telnet to a campus
+&gt;machine, and run text editors and the like, without noticing any
+&gt;significant lag or difference between that and a direct connection?  I
+&gt;find this hard to believe.
+&gt;
+
+I can see how, for a text session sending one-char-per-packet, there
+might be a significant difference between a telephone modem connection
+depending on whether it originated on or off campus. What significance
+slower response times would have for a much larger series of
+applications, from straight data transfers to streaming audio, is yet
+again a different question -- though I'd suggest that using a TCP
+utility to tweak one's waits/waters/timeouts would do much to improve
+this...
+
+Now, as a caveat, I'll admit that I've been pinging hosts from my
+office mac and from socrates while this was going on, and the
+statistics aren't pretty and would suggest degradation of any network
+transmission:
+
+HOST:			%loss from	%loss from
+			socrates	dwinelle
+
+husc.harvard.edu	12		19
+blood.bbnplanet.com	21		16
+colrain.williams.edu	18		18
+
+though these are (intentionally) all east coast bnnplanet hosts. Note
+that colrain is out on a leg through amherst that (I believe) isn't
+quite t-1 get, and gets rerouted from their science center over to
+their computer center, and has various other transmission
+difficulties; husc is of course on bbnplanet's boston hub (being an
+original near-net site), and blood, I believe, is still sitting on a
+6th/7th floor subnet of bbn's cambridge park office, which means it
+should be even better connected than husc. These are ridiculous losses
+to those hosts, and if they can be shown to be more common than I
+claim above I will be eating my words soon :)
+
+&gt;Sprintlink and BBN Planet are
+&gt;just bad.  I just hope they are cheap.
+&gt;
+
+I'm not sure why you include BBN Planet in that list; generally I
+considered them absolutely reliable; while there certainly was some
+grumbling (inside planet) about the overall competence of former
+BARRNet acquired personel, and which may have related to the
+frustration's that berkeley had with the lack of bnn's responsiveness
+to berkeley's concerns, I don't think any of those issues had much to
+do with connectivity issues... and certainly planet's committment to
+24/7 service, whatever it takes, is quite a direct contrast to the
+buffoonery of sprintlink personel. (To be more specific, if williams
+were experience the kind of packet loss that I showed above, it would
+be upgraded to a serious problem quite quickly if it were not
+resolved, while sprintlink seems to be taking it in stride.)
+
+&gt;&gt; So you think it is the university's business to judge what I should
+&gt;&gt; read while using university resources?
+&gt;
+&gt;Certainly it would be better if the university could do so easily.  I
+&gt;don't think many people object to that concept.
+
+For now, I won't even touch this one :) ...
+
+Yours,
+
+Ken
+
+
+
+&gt;  For example, there's a
+&gt;big sign in a computer room I use that says no game playing during
+&gt;certain hours, or when people are waiting to use the machines.  I never
+&gt;heard anyone assert that it was none of the university's business if
+&gt;they wanted to tie up the machines playing games.
+&gt;
+&gt;                                        David desJardins
+</pre>
+<!-- body="end" -->
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0064.html">ryan travis tate: "Re: Modem discussions at the CCCPB/IT"</a>
+<li> <b>Previous message:</b> <a href="0062.html">Alan Coopersmith: "Re: Limiting hours/week seems to be the best solution for now"</a>
+<li> <b>Maybe in reply to:</b> <a href="0043.html">Arturo Perez-Reyes: "Modem discussions at the CCCPB/IT"</a>
+<!-- nextthread="start" -->
+<li> <b>Next in thread:</b> <a href="0064.html">ryan travis tate: "Re: Modem discussions at the CCCPB/IT"</a>
+<!-- reply="end" -->
+</ul>

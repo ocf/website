@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<title>Open Computing Facility at University of California, Berkeley</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="alternate stylesheet" type="text/css" href="/bleuice.css" title="bleuice" />
+<link rel="stylesheet" type="text/css" href="/bleuarctic.css" title="bleuarctic" />
+
+<script type="text/javascript" src="/tabs.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+
+<style>
+    .announcements td, .announcements th { padding: 0px; }
+#closingHours {
+    background-color: #fff7d8;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+
+    color: #222;
+}
+
+#closingHours h2 {
+    border: none;
+    text-transform: none;
+    text-align: left;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    color: #222;
+    margin-top: 0px;
+    margin-bottom: 3px;
+
+    letter-spacing: 0px;
+}
+
+#closingHours table {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 7px;
+}
+
+#closingHours table, #closingHours table td, #closingHours table th {
+    border-collapse: collapse;
+    border: solid 1px #222;
+}
+
+#closingHours table td, #closingHours table th {
+    padding: 5px;
+    font-size: 10px;
+}
+
+#helloSummer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<!--#include virtual="/header.html"-->
+
+<div id="mothercontainer">
+<div id="container">
+
+<div class="tickerbox">
+<p>
+Run entirely by <em>O</em>bsessively <em>C</em>omputer <em>F</em>riendly <strong>student volunteers</strong> since 1989.<br/>
+Weekly meetings on Mondays at 6:10pm in 380 Soda! Drop by to learn more!
+</p>
+</div>
+
+  <div id="content">
+
+<h2>Welcome to the OCF</h2>
+<!-- <a href="http://hello.ocf.berkeley.edu/" style="display: block;padding: 10px 30px; margin-bottom: 15px; background-color: #01a2a6; text-align: center; font-weight: bold; color: white;">
+<p style="font-size: 26px; margin-bottom: 10px;">The first OCF General Meeting is on Monday!</p>
+<p style="font-size: 16px;">Click to learn more about what we do and how to join the OCF staff team!</p>
+</a> -->
+<div style="display: block;padding: 10px 30px; margin-bottom: 15px; background-color: #01a2a6; text-align: center; font-weight: bold; color: white;">
+<p style="font-size: 14px; margin-bottom: 14px;">The OCF lab is closed until<br />9am on Tuesday, January 20th.</p>
+<p style="font-size: 18px; margin-bottom: 10px;">Happy holidays from the OCF!</p>
+</div>
+<!-- <div style="display: block;padding: 10px 30px; margin-bottom: 15px; background-color: rgb(255, 200, 0); text-align: center; font-weight: bold; color: white;">
+<p style="font-size: 18px; margin-bottom: 14px;">Many OCF services are currently unavailable due to a power outage in Hearst Gym.</p>
+<p style="font-size: 18px; margin-bottom: 10px;">For details, please visit <a style="color: #e9e9e9;" href="http://status.ocf.berkeley.edu/">our status blog</a>.</p>
+</div> -->
+
+		<ul id="tabnav" style="margin-bottom:0px;">
+			<li id="nav_individuals" class="active"><a href="javascript:showTab('individuals','groups')" onfocus="blur();">Individuals</a></li>
+			<li id="nav_groups"><a href="javascript:showTab('groups','individuals')" onfocus="blur();">Groups</a></li>
+		</ul>
+
+<!--Start tab 1-->
+
+		<div id="individuals" class="welcome">		
+  		<p>The Open Computing Facility (OCF) is an <em>all-volunteer student organization</em> dedicated to free computing for all University of California at Berkeley students, faculty, and staff. Among our services, we offer:</p>
+
+  <ul>
+	<li>Free <a href="https://wiki.ocf.berkeley.edu/services/shell/">shell account</a> (SSH)</li>
+	<li>Free <a href="https://wiki.ocf.berkeley.edu/services/shell/">disk</a> &amp; <a href="https://wiki.ocf.berkeley.edu/services/web/">web space</a> (2 GB)</li>
+	<li>Free <a href="https://wiki.ocf.berkeley.edu/services/lab/printing/">printing</a> (250 pages/semester)</li>
+	<li>Spiffy <a href="https://wiki.ocf.berkeley.edu/services/lab/">computer lab</a> in 6A Hearst Gym</li>
+	<li>and <a href="https://wiki.ocf.berkeley.edu/services/">more...</a></li>
+  </ul>
+&#8250; <a href="https://accounts.ocf.berkeley.edu/request-account">Join the OCF</a><br/>
+&#8250; <a href="https://hello.ocf.berkeley.edu/">Join OCF staff</a><br/>
+&#8250; <a href="https://accounts.ocf.berkeley.edu/change-password">Reset your account password</a><br />
+		</div>
+<!--End tab 1-->	
+
+<!--Start tab 2-->
+		
+	<div id="groups" style="display:none;" class="welcome">		
+		<p>The OCF offers hosting to numerous <a href="/Group_Pages.shtml">student groups</a> on campus. Among the services offered to groups, we offer:</p>
+
+  <ul>
+<li>Free <a href="https://wiki.ocf.berkeley.edu/services/web/">web hosting</a> for official groups and registered student groups</li>
+	<li><a href="https://wiki.ocf.berkeley.edu/services/vhost/" title="Virtual hosting">Virtual hosting</a> (yourgroup.Berkeley.EDU)</li>
+	<li>Same privileges as individual accounts</li>
+	<li>and <a href="https://wiki.ocf.berkeley.edu/services/">more...</a></li>
+  </ul>
+  
+&#8250; <!--<a href="https://www.ocf.berkeley.edu/approve">Request an account online</a> or visit a staff member in the lab.-->Visit a staff member in lab to create a group account.
+<br />
+&#8250; <a href="https://wiki.ocf.berkeley.edu/membership/">More information about your group account</a>
+	</div>
+
+<!--End tab 2-->
+
+<h2><a href="http://status.ocf.berkeley.edu/">Recent notices</a></h2>
+
+<pre class="motd"><!--#include virtual="/cgi-bin/parsemotd.cgi"--></pre>
+
+<h3 class="announcements">Announcements</h3>
+
+<table class="announcements">
+<tr>
+	<th><a href="https://www.ocf.berkeley.edu/~staff/bod/">OCF Board of Directors meetings</a>
+	<em>
+	We meet on Mondays at 6:10pm in 380 Soda to make decisions. All OCF members are encouraged to come and contribute their perspectives.
+	</em>
+	</th>
+</tr>
+
+<tr>
+	<th><a href="http://decal.ocf.berkeley.edu/">Classes facilitated by OCF staff</a> 
+	<em><a href="http://decal.ocf.berkeley.edu/2012-fall/">Hands-On UNIX System Administration - Fall 2012</a> (not currently offered)</em>
+	</th>
+</tr>
+
+<!--<tr>
+	<th><a href="https://bigideas.Berkeley.EDU/donate/143">Support the OCF with a Donation</a>
+	<em>The OCF is run purely by volunteers working with a tight, shrinking budget, while our user base continues to grow. For more details on our goals and <a href="https://bigideas.Berkeley.EDU/donate/143">how you can help</a>, visit us at <a href="http://bigideas.Berkeley.EDU/node/143">Big Ideas</a>.
+	</em>
+	</th>
+</tr>-->
+
+</table>
+
+  </div>
+
+
+  <div id="leftside">
+
+      <!--
+<div id="closingHours">
+    <h2>Fall 2014 Lab Hours</h2>
+    <table>
+        <tr>
+            <th>R.R.R. Week</th>
+            <td>11am&ndash;9pm</td>
+            <td>Dec 8 to Dec 14</td>
+        </tr>
+        <tr>
+            <th>Finals Week</th>
+            <td>9am&ndash;9pm</td>
+            <td>Dec 15 to Dec 18</td>
+        </tr>
+        <tr>
+            <th>Last Day</th>
+            <td>9am&ndash;12pm</td>
+            <td>Dec 19</td>
+        </tr>
+    </table>
+    <p id="helloSummer">Good luck on finals and have a great holiday!</p>
+</div>
+-->
+
+
+
+<!--      <p>
+      <strong>OCF Status Update</strong> <br />
+      OCF printing is currently down. Sorry for the inconvenience. <br />
+      <span style="font-size: 8px;">Last updated 2014-01-24</span>
+
+      </p> -->
+	<h4>Tools</h4>
+
+	<ul id="leftnav">
+      <li><a href="https://accounts.ocf.berkeley.edu/commands" class="tooltip">My Account<span>Check remaining paper and disk quota, set up webspace, mysql, and more.</span></a></li>
+      <li><a href="staff_hours" title="Hours Staffers Will Be in Lab" class="tooltip">Staff Hours<span>Check hours staff will be in the OCF Lab</span></a></li>
+      <li><a href="http://status.ocf.berkeley.edu/" title="Status of OCF Services">OCF Status</a></li>
+      <li><a href="http://systemstatus.ocf.berkeley.edu/" title="System Status of Servers/Workstations">System Status</a></li>
+      <li><a href="https://printhost.ocf.berkeley.edu/jobs/" title="Current List of Print Jobs" class="tooltip">Print Queue<span>List current print jobs</span></a></li>
+      <!--<li><a href="https://www.ocf.berkeley.edu/cgi-bin/people4.cgi?maxidle=120" title="Staffers Currently Online or in Lab">Staff Online</a></li>--><!--currently does not work-->
+	</ul>
+
+	<h4>The OCF Blog</h4>
+	<p>OCF server down?
+
+	<br />
+
+	Check out our blog situated off our servers, which means status reports and updates even when our network experiences a hangover.</p>
+
+	<p><a href="http://status.ocf.berkeley.edu/feeds/posts/default"><img src="feedicon10x10.gif" width="10" height="10" alt="[feed]" title="Read via Atom Feed" style="padding:0 2px 0 0;" /></a> <a href="http://status.ocf.berkeley.edu/">Visit the blog &#8250;</a></p>
+
+<!--	<h4>Live Chat with Staff</h4>
+
+	<p>Chat with the staff via Internet Relay Chat (IRC), either through your <a href="/services/irc.shtml">OCF UNIX Shell</a> or the web-based (Java) client linked below by joining channel <b>#ocf</b> on <b>irc.ocf.berkeley.edu</b>.</p> 
+	<p><img src="iconirc.png" width="16" height="12" alt="[irc:]" title="#ocf on irc.ocf.berkeley.edu" border="0" style="padding:0 2px 0 0;" /><a href="http://irc.ocf.berkeley.edu" title="Web-based Java client">Start Chatting &#8250;</a></p>
+-->	
+	<!--<h4>We're Mobile</h4>
+	<p>Have an iPhone, Droid, Blackberry, Android G1, Pre, Evo, or other mobile device?
+
+	<br />
+
+	Point it to <a href="http://m.ocf.berkeley.edu"><b>m.ocf.berkeley.edu</b></a>.</p>
+<br />
+	-->
+
+</div> <!-- end div leftside -->
+
+</div></div> <!-- end div container and mothercontainer -->
+
+<!--#include virtual="/footer.html"-->
+
+<!--#include virtual="/tracker.html"-->
+
+</body>
+</html>

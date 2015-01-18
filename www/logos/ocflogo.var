@@ -1,0 +1,7 @@
+URI: ocflogo; vary="type"
+
+URI: ocflogo.gif
+Content-type: image/gif; qs=0.6
+
+URI: ocflogo.png
+Content-type: image/png; qs=0.5

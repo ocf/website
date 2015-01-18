@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>Open Computing Facility: About Our Organization</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+@import url("/bleuarctic.css");
+</style>
+<link rel="alternate stylesheet" type="text/css" href="/bleuice.css" title="bleuice" />
+<link rel="stylesheet" type="text/css" href="/bleuarctic.css" title="bleuarctic" />
+<script type="text/javascript" src="/styleswitcher.js"></script>
+<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+</head>
+
+<body>
+
+<!--#include virtual="/header.html"-->
+
+<div id="mothercontainer">
+<div id="container">
+
+<!--#include virtual="/skinpicker.html"-->
+
+<h2>About Our Organization</h2>
+
+
+<!--<p align="center">Open Computing Facilitators.</p>-->
+
+<h1>The Mission</h1>
+
+The OCF is an all-volunteer, student-run, student-initiated service group
+dedicated to free computing for all <!--A href="/UCB/"--><a
+href="http://www.berkeley.edu">University of California at Berkeley</a>
+students, faculty, and staff.  The mission of the OCF is to provide an
+environment where no member of Berkeley's campus community is denied the
+computer resources he or she seeks, and to appeal to all members of the
+Berkeley campus community with unsatisfied computing needs and to provide
+a place for those interested in computing to fully explore that interest.
+<!--We do our best not to be elitist.-->
+
+<br />
+<br />
+
+<div class="contentleftthird">
+<!--<div style="float:left; width:33%;">-->
+
+<h3>The Official Documents</h3>
+
+<ul>
+<li><a href="http://docs.ocf.berkeley.edu/wiki/Constitution_of_the_Open_Computing_Facility">The Constitution</a></li>
+<li><a href="http://docs.ocf.berkeley.edu/wiki/Bylaws_of_the_Open_Computing_Facility">The Bylaws</a></li>
+<li><a href="http://docs.ocf.berkeley.edu/wiki/Policies">The Policies</a></li>
+<li>The Minutes: Board of Directors &amp; General Meetings
+	<ul>
+	<li><a href="http://www.OCF.Berkeley.EDU/OCF/official_docs/minutes/">Fall 2009 - current</a></li>
+	<li><a href="http://www.OCF.Berkeley.EDU/OCF/official_docs/minutes/old/2000s">Fall 1999 - Spring 2009</a></li>
+	<li><a href="official_docs/minutes/old/1990s">Spring 1989 - Spring 1999</a></li>
+	</ul>
+</li>
+</ul>
+
+</div>
+
+<!--<div style="float:right; width:33%;">-->
+<div class="contentrightthird">
+
+<h3>The People of the OCF</h3>
+
+<ul>
+<!--<li><a href="OCF_FAQ.shtml">Answers to Frequently Asked Questions about the OCF</a></li>-->
+<!--<li><a href="/cgi-bin/ruptime2.pl">Information about the OCF computers</a></li>-->
+<li><a href="staff/">About the Staff</a></li>
+<li><a href="officers.shtml">Current Officers</a></li>
+<li><a href="past_officers.shtml">Past Officers</a></li>
+<!-- <li><a href="gopher://gopher.ocf.berkeley.edu:70/hh/OCF/Reports">Semi-Annual Progress Reports from the OCF to the ASUC</a> -->
+<!-- <li><a href="/cgi-bin/fetch?newsgroup=ucb.org.ocf">ucb.org.ocf Newsgroup Archives</a></li> -->
+</ul>
+
+</div>
+
+
+
+
+
+<!--<div style="float:right; width:33%;">-->
+<div class="contentmiddlethird">
+
+<h3>The Postal Address</h3>
+
+<div class="quotebox">
+Open Computing Facility<br />
+400 Eshleman Hall #4500<br />
+UC Berkeley<br />
+Berkeley, CA 94720-4500
+</div> 
+
+
+</div>
+
+
+<br style="clear:both;" />
+
+
+<h1>What We Do</h1>
+
+<p>
+The Open Computing Facility provides free computing services to student, faculty, and staff, ranging from free printing to expiration-free web space to UNIX shell accounts to email. Furthermore, the OCF operates a highly frequented long-hours computing lab with a generally high volunteer-staff-to-user ratio for accessible in-person support, as well as online support. In addition to these user services, the group also hosts numerous <a href="/group_pages.shtml">student group websites</a>, and provides support to these and other organizations on campus.
+</p>
+
+<p>
+To be able to do this, we are always aiming to secure more resources to fully meet the needs of everyone
+in the campus community. <!--, and we do have enough to meet a large number of
+them.--> Our primary resources are our UNIX and Windows workstations and UNIX servers &mdash; entirely administered by <a href="staff/">student volunteers</a>. These resources are located within our computing lab on the ground floor of Eshleman Hall.
+</p>
+
+<p>
+To help people explore the field of computing and educate them about the resources
+available, the OCF also provides a variety of educational services. We used to co-sponsor
+a series of <!--<a href="/help-sessions">-->Help Sessions<!--</a>-->, short classes
+taught throughout the semester on a wide range of computing topics, from beginner
+to advanced levels, and focusing on resources available to the Berkeley campus
+community.  These now take the form of <a href="/sysadmin-class">DeCal courses</a> offered by us. We also offer e-mail and in-person consulting with our volunteer staff
+members, as well as online sources of information about computing on the Berkeley
+campus and how to use the available resources. Additionally, the OCF has conducted <a href="../careerfair/">career fairs</a> in the past with its sister organization, the <a href="http://www.csua.berkeley.edu">Computer Science
+Undergraduate Association</a><!--, catering almost exclusively to CS students-->.
+</p>
+
+<!--We have materials which could theoretically comprise a (a
+href=lib/)library.-->
+
+<a href="policies/">Policies</a> for this cluster and decisions for the OCF
+organization are made by the OCF Board of Directors, a group of students elected
+each semester by the OCF membership.  The Board meetings, held at least once every
+two weeks when classes are in session, are open to the public and provide a chance
+for any user to express their concerns or opinions about the OCF.
+
+
+<h1>How to Find Us</h1>
+
+If you need to contact the OCF computer system administrators, send e-mail
+to <a
+href="mailto:site-manager@ocf.berkeley.edu">site-manager@OCF.Berkeley.EDU</a>.
+If you need to contact the OCF organization, you can write to <a
+href="mailto:general-manager@ocf.berkeley.edu">
+general-manager@OCF.Berkeley.EDU</a>.
+
+<p>
+The OCF also runs the
+<a href="http://www.ocf.berkeley.edu/">www.ocf.berkeley.edu http server</a>
+and the <a href="ftp://ftp.ocf.berkeley.edu/pub/">ftp.ocf.berkeley.edu anonymous ftp server</a>.
+</p>
+
+
+</div></div> <!-- end div container and mothercontainer -->
+
+<!--#include virtual="/footer.html"-->
+
+<!--#include virtual="/tracker.html"-->
+
+</body>
+</html>
+
+

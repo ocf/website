@@ -1,0 +1,248 @@
+<html><head>
+<title>Information about OCF's Computers</title>
+
+<!--#include virtual="/template/head.html" -->
+<!-- assumes both /head & body tags are in head.html -->
+
+
+
+
+<div align=center>
+<font size=+3>Information about OCF's Computers</font><BR>
+(current as of September 23rd, 2001; updated by akopps)
+</div>
+
+<hr>
+<h2 align=center>Computers by function</h2>
+
+<dl>
+<dt><h3>Remote Login Servers (SUN)</h3>
+<dd><i>Any OCF user can log into any of these computers via ssh or sftp:</i>
+<dd>apocalypse, conquest, famine. <p>For your convenience, use the name
+"ocf.berkeley.edu" instead, it points to all three of them.
+
+<dt><h3>Lab Computers (SUN)</h3>
+<dd><i>These computers are available for console login in Heller
+Lab, but you may also ssh to them</i>
+<dd>blizzard, 
+firestorm, 
+hurricane, monsoon, sandstorm, tornado, 
+typhoon, whirlwind.<BR><BR>
+
+
+<dt><h3>Lab Computers (Windows)</h3>
+<dd><i>These computers are only available for console login in Heller 
+Lab</i>
+<dd>anthrax, biohazard, blight, earthquake, epidemic, jaws, pox, plague, outbreak, 
+madcow, locusts, tsunami, typhoon, tempest, volcano.
+
+<dt><h3>Server Back-end Computers (SUN)</h3>
+<dd><i>OCF Users should not login directly to these computers</i>
+<dl>
+ <dt>death (aka www.ocf)<dd>Web server, file server, tape backup
+ <dt>war (aka mail.ocf)<dd>Mail server, file server
+ <dt>pestilence<dd>Backup mail server
+ <dt>millennium<dd>Solaris SPARC testbed
+</dl>
+</dl>
+
+<hr>
+<h2 align=center>Computers by model</h2>
+
+<dl>
+<dt><h3>SPARC Architecture Computers</h3>
+<dd><i>These machines all run the <a href="/solaris/">Solaris 8
+operating system</a> from Sun</i>
+<dd>
+<table border=0>
+<tr><th>machine name</th> <th>model</th> <th>CPU</th> 
+<th>memory</th><th>data storage</th></tr>
+<tr><td>conquest</td> <td>Sun Ultra 1</td> <td>167 MHz UltraSPARC I</td>
+<td>320 MB RAM<br></td></tr>
+<tr><td>famine</td> <td>Sun Ultra 1</td> <td>167 MHz UltraSPARC
+I</td> <td>320 MB RAM<br></td></tr>
+<tr><td>apocalypse</td> <td>Sun Ultra 1</td> <td>167 MHz UltraSPARC I</td>
+<td>320 MB RAM<br></td></tr>
+<tr><td>pestilence</td> <td>Sun Ultra 1</td> <td>167 MHz UltraSPARC I</td>
+<td>192 MB RAM<br></td></tr>
+<tr><td>death</td> <td><a 
+href=http://www.sun.com/servers/workgroup/250/>Sun Enterprise 250</a></td> 
+<td>2 x 400MHz UltraSPARC II</td><td>2 GB RAM</td><td>2x18GB + 4x36GB, 216GB
+<a href="http://www.sun.com/storage/a1000/index.html">Sun A1000</a> disk array, DDS3 tape drive with autoloader</tr>
+<tr><td>war</td> <td><a href="http://www.sun.com/desktop/sunblade100/">
+Sun Blade 100</td> <td>500MHz UltraSPARC IIe</a></td>
+<td>1GB RAM<br></td><td>2x15GB + 90GB Sun Multipack disk array (90GB) </tr>
+<tr><td>avalanche, fallingrocks, mudslide</td> <td><a
+href="http://www.sun.com/desktop/products/Ultra5/">Sun Ultra 5</a></td>
+<td>270 MHz UltraSPARC IIi</td> <td>128 MB RAM<br></td></tr>
+
+<tr><td>8 lab workstations</td> <td>Sun Ultra 1
+</td> <td>167 MHz UltraSPARC I</td><td>192-256MB RAM</tr>
+<tr><td>9 lab workstations</td> <td>Sun Blade 100
+</td> <td>500MHz UltraSPARC IIe</td><td>512MB RAM</tr>
+
+
+</table>
+<br><br>
+
+
+<dt><h3>x86 Architecture Computers</h3>
+
+<dd><i>These machines all run the <a 
+
+href=http://www.microsoft.com/windows2000/guide/professional/overview/default.asp>Windows 
+2000 
+
+Professional operating system</a> from Microsoft.<BR>
+However, some are dualboot with a random version of BSD or Linux, for 
+testing (staff play)  
+
+purposes.</i><br><br>
+
+<dl>
+<dt><b>Gateway Select</b> (10x)<br>
+video: NVidia GeForce 256 DDR 32MB<br>
+display: 15.1" flat panel LCD<br>
+DVD: 6x<BR>
+CD-RW: phillips 8x4x32<BR>
+
+
+<!-- ######PCstart-->
+<table border=1 cellspacing=2 cellpadding=2>
+<tr><th>machine name</th> <th>model</th> <th>CPU</th> <th>memory</th> 
+<th>additional</th></tr>
+
+<tr><td>anthrax</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW</td></tr>
+
+<tr><td>biohazard</td> <td>Gateway Select</td> <td>1000 MHz 
+Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+<tr><td>blight</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW, broken floppy</td></tr>
+
+<tr><td>epidemic</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+<tr><td>jaws</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+<tr><td>pox</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+<tr><td>plague</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+<tr><td>outbreak</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+<tr><td>madcow</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+<tr><td>locusts</td> <td>Gateway Select</td> <td>1000 MHz Athlon</td>
+<td>384 MB RAM<br></td> <td>DVD, CD-RW </td></tr>
+
+</table>
+<!-- ######PC end-->
+<BR>
+
+<dt><b>Digital PC</b> (x1)<br>
+CPU: P100<br>
+memory: 38MB<br>
+<dd>drought
+<dd>* dying (dead?)
+</dl>
+<br><br>
+
+
+<dt><h3>PowerPC Architecture Computer</h3>
+<dd><i>These computers run Mac OS.</i>
+<dl>
+<dt>Apple iMac
+<dd>asuc-xx - 15" flat panel, G4 800MHz, cd-rw
+<dt>Apple Performa 6360AV (webcam)
+<dd>heatwave
+</dl>
+<br><br>
+
+
+<!--below here: old shit-->
+<dt><b>Digital DECstation Workstations (no longer in use and thrown 
+out)</b>
+<dd><i>These machines used to run the Ultrix operating system from DEC</i>
+<dl>
+<dt><a href=DECstation5000-125.html>DECstation 5000/125</a>
+<!--tornado-->
+<dt><a href=DECstation5000-25.html>DECstation 5000/25 "Personal"</a>
+<!--blizzard, pileup-->
+<dt><a href=DECstation3100.html>DECstation/3100</a>
+<!--headcrash, volcano-->
+<dt><a href=DECstation2100.html>DECstation/2100</a>
+<!--cataclysm, drought, earthquake, heatwave, hurricane-->
+</dl>
+<p>
+
+
+<dt><b><A HREF="/apollo/">Apollo Domain Workstations</A> (no longer
+in use and thrown out)</b>
+<dd>We've had some Apollos in the past -- since 1988 in fact. They were
+our
+first lab machines ever. Last year's SM, katster,
+sent them all to E&S -- a.k.a. campus salvage. They were simply too old to
+be useful. As with time, technology marches on, if less inexorably.
+</dl>
+</dl>
+
+<h2>Printers</h2>
+<dl>
+<dt>logjam
+<dd>HP Laserjet 8150DN<br>
+32 pages/minute b/w use it in our <a href=../../newlab/>Lab</a>!
+
+
+<dt><s>logjam</s> (the first one we got for the new lab; not used)
+<dd>HP Laserjet 4050N<br>
+This baby has 16ppm black and white capabilities<!--with full duplex-->!
+
+<dt><strike>logjam</strike> (the first one)
+<dd>HP Laserjet 4MP<BR>
+Our printer was stolen during June, July or August of summer
+1999. That's what happens with lax security and no lockdown cabling.
+<!--Thus, we are on the lookout for it, as well as new printers. But we
+expect
+to have DEClasers up and running soon. --></dl>
+<p>
+
+<hr>
+
+<br>
+
+<h2>More Information</h2>
+<dl>
+<dt>Everything else
+<dd>Most of the equipment listed here is in Heller Lab, MLK Student Union.
+The servers are in another building close by. OCF has additional machinery
+ that is even slower than what is listed above. Thus, we are always open
+to
+donations of decent equipment from individuals or corporations, so if you
+are thinking about it, please contact us. Contributors will at minimum
+receive receipts for their equipment. We are considering other computer
+platforms, but that depends on other factors which are being worked
+out...<p>
+
+We will take any recent (within a couple years) Sun equipment, as well as
+Pentium- and PowerPC-class machines that work.<BR><BR>
+
+To arrange a tax-deductible equipment donation, please contact us at donations@ocf.berkeley.edu and thank you in advance! 
+</dl>
+
+<P>
+
+
+
+
+
+
+<!--#include virtual="/template/tail.html" -->
+</body></html>

@@ -1,0 +1,10 @@
+# /robots.txt for http://www.ocf.berkeley.edu/
+# See <http://www.robotstxt.org/wc/norobots.html> for full details.
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /OCF/contact.html
+Disallow: /upgrade/
+Disallow: /new/
+Disallow: /old/
+Disallow: /v3/

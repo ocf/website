@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
+<html><head>
+<title>OCF Unattended Process Policy</title>
+<link rev=made href="mailto@www@ocf.berkeley.edu">
+<!--#include virtual="/template/head.html" -->
+<!-- assumes both /head & body tags are in head.html -->
+
+<h1 align=center>Policy on Unattended Processes</h1>
+<hr>
+<i>As approved by the Board of Directors on February 22nd, 2000.</i>
+
+<p>Shell access to OCF accounts is primarily intended for interactive
+use. Because unattended processes divert resources from other
+legitimate uses and can introduce security concerns, they are subject
+to more restrictions than processes used interactively.
+
+<p>Primary authority to regulate unattended processes is vested in the
+Site Manager; as usual the decisions of the Site Manager can be
+appealed through the OCF Decision Making Process.
+
+<p><dl>
+<dt>Unattended interactive processes<dd>
+
+Normally interactive processes, including shells, xterms, and
+applications such as mail-readers and web browsers, fall under the
+scope of this policy when they are left idle for several hours or
+more. Users who are connected to the OCF remotely may remain logged in
+and running basic processes such as an terminal or an xbiff
+indefinitely, as long as they take care to maintain their session's
+security (for instance, a shell on the OCF should not be left
+unattended in a public lab).  Users should try to avoid leaving major
+processes such as a web browser for long periods, however, as they can
+monopolize a large share of memory and other resources.  Unattended
+processes are sometimes also created unintentionally, as by network
+interruptions; staff may terminate these after a reasonable period if
+they appear to be orphaned, and users who maintain permanent
+connections must accept the possibility that their processes are more
+likely to be terminated accidentally.
+
+<p><dt>Computational processes<dd>
+
+Because of the OCF's limited processing resources relative to its user
+base, it is not especially suitable for uses that involve long-term
+computation. However, such use of the OCF for individual purposes is
+permitted, as long as the user makes a reasonable effort to avoid
+interfering with the normal use of the OCF's facilities. In
+particular:
+<ul>
+<li>Processes should run with a background priority (i.e., nice -19)</li>
+
+<li>Processes should not be run on login servers (famine, conquest,
+apocalypse)</li>
+
+<li>There should be a file with the same name as the process but with
+the extension `.info' in the user's home directory, describing what
+the process does, and giving a graceful way to kill it, if doing so
+should be necessary.</li>
+</ul>
+
+<p><dt>Collective computing efforts<dd>
+
+Large external collected efforts, such as cipher-cracking, prime
+number searches, and SETI@Home, are considered to be among the least
+useful possible applications to which the OCF's computers can be put.
+Especially because of many such efforts' competitive natures, they are
+conducive to abuse and as such are more closely restricted. In
+addition to the usual restrictions applying to computation processes,
+such programs may only be run unattended after-hours on idle
+workstations. Any such programs running unattended on login servers or
+on workstations during lab hours may be killed.
+
+<p><dt>Servers<dd>
+
+Servers refer to a particular kind of processes that listen for
+connections over a network and respond to requests for information or
+other services. Note that servers that run only as part of an
+application when a user is logged in (such as an X server, or a
+networked game) do not fall under the provisions of this policy unless
+they are left unattended.
+
+<p>Because they respond to commands from the network and provide OCF
+resources to outside parties, servers are troublesome from a security
+standpoint. Servers that duplicate services already provided by the
+OCF (such as a web server, file-transfer server or login server) are
+particularly suspect because of their possible use to subvert normal
+security and logging mechanisms, and will only be allowed with the
+prior permission of the Site Manager.
+
+<p>Servers that provide services not otherwise offered by the OCF may be
+allowed under the following conditions:
+
+<ul>
+<li>Servers should not use excessive CPU power.</li>
+
+<li>Servers should not be primarily for the use of individuals outside
+the campus community.</li>
+
+<li>When practical, servers should have access control and logging
+mechanisms to prevent unauthorized use.</li>
+
+<li>There should be a file with the same name as the process but with
+the extension `.info' in the user's home directory, describing what
+the process does, and giving a graceful way to kill it, if doing so
+should be necessary.</li>
+</ul>
+
+<p>It is suggested that users consult with the Site Manager before
+putting such a server into permanent operation.
+
+<p><dt>Network abuse and unattended processes<dd>
+
+Users should also be especially careful with processes that connect to
+other computers on the network as clients. If a program sends an
+excessive number of unsolicited messages to other computers, such as
+by email, in IRC, or even as ping packets, the user who ran it may be
+held responsible for abuse of the network whether or not (s)he was
+actively controlling the program at the time.
+</dl>
+<!--#include virtual="/template/tail.html" -->
+</body></html>
