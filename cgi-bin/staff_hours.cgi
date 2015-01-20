@@ -90,8 +90,8 @@ print("""<div id="mothercontainer">
 
 print("<div id=\"staff-hours\">")
 
-ldap_server = ldap3.Server("ldap.ocf.berkeley.edu", port=636, useSsl=True)
-ldap_conn = ldap3.Connection(ldap_server, user="", password="", autoBind=True)
+ldap_server = ldap3.Server("ldap.ocf.berkeley.edu", port=636, use_ssl=True)
+ldap_conn = ldap3.Connection(ldap_server, user="", password="", auto_bind=True)
 ldap_base = "ou=People,dc=OCF,dc=Berkeley,dc=EDU"
 
 
