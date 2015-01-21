@@ -74,8 +74,8 @@ print("""<div id="mothercontainer">
  </div>
 """)
 
-# <p>OCF staff are student volunteers dedicated to providing free computing for members of the UC Berkeley community. Each week, friendly staffers hold staff hours in <a href="http://wiki.ocf.berkeley.edu/services/lab/">the lab</a> to assist OCF members.</p>
-# <p>Because our volunteer staff have limited time, we <em>strongly</em> prefer that users requesting support attempt to attend regular staff hours instead of <a href="http://wiki.ocf.berkeley.edu/contact/">emailing us</a> or asking for a special appointment.</p>
+# <p>OCF staff are student volunteers dedicated to providing free computing for members of the UC Berkeley community. Each week, friendly staffers hold staff hours in <a href="https://wiki.ocf.berkeley.edu/services/lab/">the lab</a> to assist OCF members.</p>
+# <p>Because our volunteer staff have limited time, we <em>strongly</em> prefer that users requesting support attempt to attend regular staff hours instead of <a href="https://wiki.ocf.berkeley.edu/contact/">emailing us</a> or asking for a special appointment.</p>
 
 print("<div id=\"staff-hours\">")
 

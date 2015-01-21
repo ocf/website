@@ -69,13 +69,13 @@ print("""<div id="mothercontainer">
 <p id="sorry">All OCF staff hours are cancelled until the Fall 2014 semester.</p>
 <p>During the academic semester, OCF staff members hold regular drop-in staff hours to provide assistance with account issues or with OCF services. Over the summer, regular staff hours are not held.</p>
 <!-- <p>In exceptional circumstances, we can usually arrange a meeting with an OCF staff member, although we will try to schedule multiple appointments simultaneously to preserve staff member time.</p> -->
-<p>Updated staff hours will be posted to this page in mid-September when staff hours resume. In the interim, you may <a href="http://wiki.ocf.berkeley.edu/contact/">contact us via email</a> if you require immediate assistance.</p>
+<p>Updated staff hours will be posted to this page in mid-September when staff hours resume. In the interim, you may <a href="https://wiki.ocf.berkeley.edu/contact/">contact us via email</a> if you require immediate assistance.</p>
  <p id="happy">Happy summer from the OCF!</p>
  </div>
 """)
 
-# <p>OCF staff are student volunteers dedicated to providing free computing for members of the UC Berkeley community. Each week, friendly staffers hold staff hours in <a href="http://wiki.ocf.berkeley.edu/services/lab/">the lab</a> to assist OCF members.</p>
-# <p>Because our volunteer staff have limited time, we <em>strongly</em> prefer that users requesting support attempt to attend regular staff hours instead of <a href="http://wiki.ocf.berkeley.edu/contact/">emailing us</a> or asking for a special appointment.</p>
+# <p>OCF staff are student volunteers dedicated to providing free computing for members of the UC Berkeley community. Each week, friendly staffers hold staff hours in <a href="https://wiki.ocf.berkeley.edu/services/lab/">the lab</a> to assist OCF members.</p>
+# <p>Because our volunteer staff have limited time, we <em>strongly</em> prefer that users requesting support attempt to attend regular staff hours instead of <a href="https://wiki.ocf.berkeley.edu/contact/">emailing us</a> or asking for a special appointment.</p>
 
 print("<div id=\"staff-hours\">")
 
