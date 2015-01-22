@@ -63,25 +63,15 @@ print("""	</head>
 	<body>""")
 print(open('/srv/sites/ocf/www/header.html').read())
 
-# print("""<div id="mothercontainer">
-# <div id="container">
-# <div id="summerBanner">
-# <p id="sorry">Have questions? Drop by for help from a friendly volunteer staffer!</p>
-# <p>OCF staff members hold regular drop-in staff hours to provide assistance with account issues or with OCF services. We're always happen to help troubleshoot account or service issues!</p>
-# <!-- <p>In exceptional circumstances, we can usually arrange a meeting with an OCF staff member, although we will try to schedule multiple appointments simultaneously to preserve staff member time.</p> -->
-# <p>Keep in mind the OCF volunteers sometimes have last-minute conflicts, so it's a good idea to check this page before coming in for cancellations.</p>
-#  <p id="happy">Welcome back from the OCF!</p>
-#  </div>
-# """)
-
 print("""<div id="mothercontainer">
 <div id="container">
 <div id="summerBanner">
-<p id="sorry">Staff hours have concluded for the Fall semester.</p>
+<p id="sorry">Have questions? Drop by for help from a friendly volunteer staffer!</p>
 <p>OCF staff members hold regular drop-in staff hours to provide assistance with account issues or with OCF services. We're always happen to help troubleshoot account or service issues!</p>
+<p>We haven't yet started regular staff hours for the semester, but we've posted a few non-recurring times below. Full staff hours will start in a week or two.</p>
 <!-- <p>In exceptional circumstances, we can usually arrange a meeting with an OCF staff member, although we will try to schedule multiple appointments simultaneously to preserve staff member time.</p> -->
-<p>Since we're all students, we don't hold staff hours during R.R.R. week, finals week, or during breaks. If you have urgent questions, feel free to <a href="https://ocf.io/contact">send us an email</a>. Otherwise, we look forward to seeing you in the Spring!</p>
- <p id="happy">Happy Holidays from the OCF!</p>
+<p>Keep in mind the OCF volunteers sometimes have last-minute conflicts, so it's a good idea to check this page before coming in for cancellations.</p>
+ <p id="happy">Welcome back from the OCF!</p>
  </div>
 """)
 
