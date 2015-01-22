@@ -61,7 +61,7 @@ print("""
 """)
 print("""	</head>
 	<body>""")
-print(open('/services/http/ocf/www/header.html').read())
+print(open('/srv/sites/ocf/www/header.html').read())
 
 # print("""<div id="mothercontainer">
 # <div id="container">
@@ -170,8 +170,8 @@ with open("/home/s/st/staff/staff_hours.yaml") as f:
 
 
 print("</div></div></div> <!-- end div container and mothercontainer -->")
-print(open('/services/http/ocf/www/footer.html').read())
-print(open('/services/http/ocf/www/tracker.html').read())
+print(open('/srv/sites/ocf/www/footer.html').read())
+print(open('/srv/sites/ocf/www/tracker.html').read())
 print("""
 	</body>
 	</html>""")
