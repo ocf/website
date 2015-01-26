@@ -203,7 +203,7 @@ Weekly meetings on Mondays at 6:10pm in 380 Soda! Drop by to learn more!
       <li><a href="https://accounts.ocf.berkeley.edu/commands" class="tooltip">My Account<span>Check remaining paper and disk quota, set up webspace, mysql, and more.</span></a></li>
       <li><a href="staff_hours" title="Hours Staffers Will Be in Lab" class="tooltip">Staff Hours<span>Check hours staff will be in the OCF Lab</span></a></li>
       <li><a href="http://status.ocf.berkeley.edu/" title="Status of OCF Services">OCF Status</a></li>
-      <li><a href="http://systemstatus.ocf.berkeley.edu/" title="System Status of Servers/Workstations">System Status</a></li>
+      <li><a href="http://munin.ocf.berkeley.edu/" title="System Status of Servers/Workstations">System Status</a></li>
       <li><a href="https://printhost.ocf.berkeley.edu/jobs/" title="Current List of Print Jobs" class="tooltip">Print Queue<span>List current print jobs</span></a></li>
       <!--<li><a href="https://www.ocf.berkeley.edu/cgi-bin/people4.cgi?maxidle=120" title="Staffers Currently Online or in Lab">Staff Online</a></li>--><!--currently does not work-->
 	</ul>
