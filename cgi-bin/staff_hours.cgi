@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # dear god this is a terrible script please don't scroll down
-import ldap3, yaml, cgi, random
+import datetime, ldap3, yaml, cgi, random
 from hashlib import md5
 from urllib.parse import urlencode
 from collections import defaultdict
@@ -68,15 +68,10 @@ print("""<div id="mothercontainer">
 <div id="summerBanner">
 <p id="sorry">Have questions? Drop by for help from a friendly volunteer staffer!</p>
 <p>OCF staff members hold regular drop-in staff hours to provide assistance with account issues or with OCF services. We're always happen to help troubleshoot account or service issues!</p>
-<p>We haven't yet started regular staff hours for the semester, but we've posted a few non-recurring times below. Full staff hours will start in a week or two.</p>
-<!-- <p>In exceptional circumstances, we can usually arrange a meeting with an OCF staff member, although we will try to schedule multiple appointments simultaneously to preserve staff member time.</p> -->
 <p>Keep in mind the OCF volunteers sometimes have last-minute conflicts, so it's a good idea to check this page before coming in for cancellations.</p>
- <p id="happy">Welcome back from the OCF!</p>
+ <p id="happy">Happy {day} from the OCF!</p>
  </div>
-""")
-
-# <p>OCF staff are student volunteers dedicated to providing free computing for members of the UC Berkeley community. Each week, friendly staffers hold staff hours in <a href="https://wiki.ocf.berkeley.edu/services/lab/">the lab</a> to assist OCF members.</p>
-# <p>Because our volunteer staff have limited time, we <em>strongly</em> prefer that users requesting support attempt to attend regular staff hours instead of <a href="https://wiki.ocf.berkeley.edu/contact/">emailing us</a> or asking for a special appointment.</p>
+""".format(day=datetime.date.today().strftime('%A')))
 
 print("<div id=\"staff-hours\">")
 
