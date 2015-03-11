@@ -27,7 +27,7 @@
 <h1>The Mission</h1>
 
 The OCF is an all-volunteer, student-run, student-initiated service group
-dedicated to free computing for all <!--A href="/UCB/"--><a
+dedicated to free computing for all <a
 href="http://www.berkeley.edu">University of California at Berkeley</a>
 students, faculty, and staff.  The mission of the OCF is to provide an
 environment where no member of Berkeley's campus community is denied the
@@ -65,7 +65,6 @@ a place for those interested in computing to fully explore that interest.
 
 <ul>
 <!--<li><a href="OCF_FAQ.shtml">Answers to Frequently Asked Questions about the OCF</a></li>-->
-<!--<li><a href="/cgi-bin/ruptime2.pl">Information about the OCF computers</a></li>-->
 <li><a href="staff/">About the Staff</a></li>
 <li><a href="officers.shtml">Current Officers</a></li>
 <li><a href="past_officers.shtml">Past Officers</a></li>
