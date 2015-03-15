@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>Open Computing Facility: About the Staff</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="alternate stylesheet" type="text/css" href="/bleuice.css" title="bleuice" />
+<link rel="stylesheet" type="text/css" href="/bleuarctic.css" title="bleuarctic" />
+<!--<script type="text/javascript" src="/styleswitcher.js"></script>-->
+<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+</head>
+
+<body>
+
+<!--#include virtual="/header.html"-->
+
+<div id="mothercontainer">
+<div id="container">
+
+<!--#include virtual="/skinpicker.html"-->
+
+<h2>The Open Computing Facility Staff</h2>
+
+<h5>Who are we?</h5>
+
+OCF Staff consists of UC Berkeley student volunteers from a variety of
+majors, at various stages of academic ascendency at Cal.
+
+<br />
+
+
+<p></p>
+
+<h5>What do we do?</h5>
+
+We administer all of the OCF <a href="https://wiki.ocf.berkeley.edu/servers/">servers and
+workstations</a> that serve our membership of over 10,000 students,
+faculty, and staff affiliated with UC Berkeley. Elected officers guide
+and coordinate major OCF activities on two fronts. The General Manager
+is in charge of publicity, staff care and maintenance, and liaising
+with the ASUC. On the other side of the fence is the Site Manager, who
+heads up the hardware, software, and networking administration.
+
+<p></p>
+
+We have technical and non-technical positions that include helping
+users with questions, answering mail,
+installing and writing software, maintaining OCF information services,
+upgrading hardware,
+
+<a href="http://wiki.ocf.berkeley.edu/">writing documentation</a>
+
+for the computing center, tabling on Sproul plaza for new users,
+recruiting new OCF Staff members, updating our website, redefining
+our graphical image, and more.
+
+<p></p>
+
+<a name="site-manager"></a>
+<h5>Who's in charge of OCF?</h5>
+
+The everyday technical working of the OCF is under the supervision of
+the OCF Site Manager, who is elected each semester by OCF's General
+Membership.
+
+<p></p>
+
+Don't think that the Site Managers have total control, however &mdash; they 
+don't. The General Manager is in charge of the Site Managers, other
+OCF Staff, and the administrative, public relations, and human
+resources of the OCF.
+
+<p></p>
+
+Lastly, in a final check and balance of the previous two titles is the
+Board of Directors (BoD). It is under the BoD moniker that we
+hold Board Meetings once a week.
+
+<p></p>
+
+<p></p>
+
+<h5>When are staff available?</h5>
+
+If you have any questions, please feel free to either e-mail
+
+or talk to one of us in person in our lab during
+
+<a href="/staff_hours">staff hours</a>. 
+
+Often, staff may be around during non-scheduled hours, and even at
+very odd hours.
+
+<p></p>
+
+<h5>How do I join staff?</h5>
+
+Since we are all volunteers and because our current staff turns over
+after several years due to graduation, we are always accepting new
+staff members. If you are interested in contributing to the campus
+computing community and getting some experience that will look good on
+a r&eacute;sum&eacute;, read about <a href="how-to-join.shtml">how to join</a> 
+
+OCF staff. We are not elitist, but we are elite. :) That said, check
+where past staff have <a href="where-now.shtml">gone to work</a>.
+
+
+</div></div> <!-- end div container and mothercontainer -->
+
+<!--#include virtual="/footer.html"-->
+
+<!--#include virtual="/tracker.html"-->
+
+</body>
+</html>
