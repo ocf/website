@@ -55,6 +55,26 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 10px;
 }
+
+.new-to-ocf {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    padding: 9px;
+    color: white !important;
+    background-color: #2F2933;
+}
+
+.new-to-ocf:hover {
+    background-color: #4F4E4F;
+    color: white !important;
+    text-decoration: none;
+}
+
+#join-staff:hover {
+    text-decoration: none;
+    background-color: #29D9C2 !important;
+}
 </style>
 </head>
 
@@ -75,7 +95,10 @@ Weekly meetings during the semester! <a href="https://hello.ocf.berkeley.edu/">L
   <div id="content">
 
 <h2>Welcome to the OCF</h2>
-<div style="border-radius: 5px; padding: 10px 30px; margin-bottom: 15px; border: solid 3px #E6E6B8; background-color: #FFFFCC; text-align: center; font-weight: bold; color: #333;">The OCF lab is closed until the fall semester.<br />Enjoy your summer!</div> 
+<a href="https://hello.ocf.berkeley.edu/" style="display: block;padding: 8px 20px; margin-bottom: 15px; background-color: #01a2a6; text-align: center; font-weight: bold; color: white;" id="join-staff">
+<p style="font-size: 20px; margin-bottom: 10px;">OCF ♥ GNU/Linux, Python, Puppet, Ruby<br />Free &amp; Open-Source Software</p>
+<p style="margin-bottom: 8px; font-size: 16px;">Click to learn more about what we do and how to join the OCF staff team!</p>
+</a>
 <!-- <div style="display: block;padding: 10px 30px; margin-bottom: 15px; background-color: rgb(255, 200, 0); text-align: center; font-weight: bold; color: white;">
 <p style="font-size: 18px; margin-bottom: 14px;">Many OCF services are currently unavailable due to a power outage in Hearst Gym.</p>
 <p style="font-size: 18px; margin-bottom: 10px;">For details, please visit <a style="color: #e9e9e9;" href="http://status.ocf.berkeley.edu/">our status blog</a>.</p>
@@ -123,34 +146,8 @@ Weekly meetings during the semester! <a href="https://hello.ocf.berkeley.edu/">L
 
 <!--End tab 2-->
 
-<h2><a href="http://status.ocf.berkeley.edu/">Recent notices</a></h2>
 
-<pre class="motd"><!--#include virtual="/cgi-bin/parsemotd.cgi"--></pre>
-
-<h3 class="announcements">Announcements</h3>
-
-<table class="announcements">
-<tr>
-	<th><a href="https://www.ocf.berkeley.edu/~staff/bod/">OCF Board of Directors meetings</a>
-	<em>
-  We meet every week during the semester to make decisions. All OCF members are
-  encouraged to come and contribute their perspectives. Meetings will resume in Fall 2015.
-	</em>
-	</th>
-</tr>
-
-<tr>
-	<th><a href="http://decal.ocf.berkeley.edu/">Classes facilitated by OCF staff</a> 
-	<em><a href="http://decal.ocf.berkeley.edu/2012-fall/">Hands-On UNIX System Administration - Fall 2012</a> (not currently offered)</em>
-	</th>
-</tr>
-
-<!--<tr>
-	<th><a href="https://bigideas.Berkeley.EDU/donate/143">Support the OCF with a Donation</a>
-	<em>The OCF is run purely by volunteers working with a tight, shrinking budget, while our user base continues to grow. For more details on our goals and <a href="https://bigideas.Berkeley.EDU/donate/143">how you can help</a>, visit us at <a href="http://bigideas.Berkeley.EDU/node/143">Big Ideas</a>.
-	</em>
-	</th>
-</tr>-->
+<!--#include virtual="/cgi-bin/parsemotd.cgi"-->
 
 </table>
 
@@ -183,21 +180,11 @@ Weekly meetings during the semester! <a href="https://hello.ocf.berkeley.edu/">L
 
 	Check out our blog situated off our servers, which means status reports and updates even when our network experiences a hangover.</p>
 
-	<p><a href="http://status.ocf.berkeley.edu/feeds/posts/default"><img src="feedicon10x10.gif" width="10" height="10" alt="[feed]" title="Read via Atom Feed" style="padding:0 2px 0 0;" /></a> <a href="http://status.ocf.berkeley.edu/">Visit the blog &#8250;</a></p>
-
-<!--	<h4>Live Chat with Staff</h4>
-
-	<p>Chat with the staff via Internet Relay Chat (IRC), either through your <a href="/services/irc.shtml">OCF UNIX Shell</a> or the web-based (Java) client linked below by joining channel <b>#ocf</b> on <b>irc.ocf.berkeley.edu</b>.</p> 
-	<p><img src="iconirc.png" width="16" height="12" alt="[irc:]" title="#ocf on irc.ocf.berkeley.edu" border="0" style="padding:0 2px 0 0;" /><a href="http://irc.ocf.berkeley.edu" title="Web-based Java client">Start Chatting &#8250;</a></p>
--->	
-	<!--<h4>We're Mobile</h4>
-	<p>Have an iPhone, Droid, Blackberry, Android G1, Pre, Evo, or other mobile device?
-
-	<br />
-
-	Point it to <a href="http://m.ocf.berkeley.edu"><b>m.ocf.berkeley.edu</b></a>.</p>
-<br />
-	-->
+	<p><a href="http://status.ocf.berkeley.edu/">Visit the blog &#8250;</a></p>
+    <a href="https://accounts.ocf.berkeley.edu/request-account" class="new-to-ocf">
+        <strong>New to the OCF?</strong><br>
+        Create an account.
+    </a>
 
 </div> <!-- end div leftside -->
 
