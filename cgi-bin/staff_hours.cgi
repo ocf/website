@@ -80,7 +80,7 @@ ldap_conn = ldap3.Connection(ldap_server, user="", password="", auto_bind=True)
 ldap_base = "ou=People,dc=OCF,dc=Berkeley,dc=EDU"
 
 
-with open("/home/s/st/staff/staff_hours.yaml") as f:
+with open("/home/s/st/staff/staff_hours.yaml", encoding='utf-8') as f:
 	data = yaml.safe_load(f)
 	positions = defaultdict(lambda: "Staff Member")
 
@@ -132,7 +132,7 @@ with open("/home/s/st/staff/staff_hours.yaml") as f:
 		header = "<div class=\"title\"><strong>{}</strong> {} {}</div>"
 		status = "<span class=\"cancelled\">cancelled this week</span>" if hour["cancelled"] else ""
 		header = header.format(day, time, status)
-		print(header)
+		print(header.encode('utf8'))
 
 		# print staff faces
 		print("	<ul class=\"faces\">")
