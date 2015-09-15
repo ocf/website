@@ -66,9 +66,9 @@ print(open('/srv/sites/ocf/www/header.html').read())
 print("""<div id="mothercontainer">
 <div id="container">
 <div id="summerBanner">
-<p id="sorry">Staff hours have concluded for the Spring 2015 semester.</p>
-<p>During the academic semester, OCF staff members hold regular drop-in staff hours to provide assistance with account issues or with OCF services. During R.R.R./finals, and over the summer, regular staff hours are not held.</p>
-<p>Updated staff hours will be posted to this page in mid-September when staff hours resume. In the interim, you may <a href="https://wiki.ocf.berkeley.edu/contact/">contact us via email</a> if you require immediate assistance.</p>
+<p id="sorry">Have questions? Drop by for help from a friendly volunteer staffer!</p>
+<p>OCF staff members hold regular drop-in staff hours to provide assistance with account issues or with OCF services. We're always happen to help troubleshoot account or service issues!</p>
+<p>Keep in mind the OCF volunteers sometimes have last-minute conflicts, so it's a good idea to check this page before coming in for cancellations.</p>
  <p id="happy">Happy {day} from the OCF!</p>
  </div>
 """.format(day=datetime.date.today().strftime('%A')))
